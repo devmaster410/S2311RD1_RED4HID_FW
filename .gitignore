@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.i
+*.p1
+MPLAB/red4s_hid.X/usb/doc/USB - Obtaining a WHQL Certified USB Driver Package.pdf
+MPLAB/red4s_hid.X/usb/doc/
