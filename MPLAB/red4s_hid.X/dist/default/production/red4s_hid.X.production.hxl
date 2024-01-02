@@ -1,18 +1,18 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o
- -Odist/default/debug\red4s_hid.X.debug.hex
- -logfile=dist/default/debug\red4s_hid.X.debug.hxl
+ C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o
+ -Odist/default/production\red4s_hid.X.production.hex
+ -logfile=dist/default/production\red4s_hid.X.production.hxl
  -addressing=1
  -break=300000
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 3h		(C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o)
-  8h - 65h		(C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o)
-  300h - 21BFh		(C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o)
-  300000h - 30000Dh		(C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o)
+  0h - 3h		(C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o)
+  8h - 65h		(C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o)
+  300h - 21BFh		(C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o)
+  300000h - 30000Dh		(C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o)
  Unused ranges:
   4h - 7h
   66h - 2FFh
@@ -21,7 +21,7 @@
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_3.o)
+  H1 = Input file             (C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------

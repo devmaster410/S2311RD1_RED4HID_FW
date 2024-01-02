@@ -503,8 +503,8 @@ cstackCOMRAM 1 4D COMRAM 1 1
 bssBANK0 60 88 BANK0 60 1
 text27 3C4 21BF CODE 3C4 0
 %locals
-dist/default/debug\red4s_hid.X.debug.o
-C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_1.s
+dist/default/production\red4s_hid.X.production.o
+C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_1.s
 1802 2174 0 CODE 0
 1804 2174 0 CODE 0
 1807 2174 0 CODE 0
@@ -670,7 +670,7 @@ main.c
 134 1F1E 0 CODE 0
 135 1F24 0 CODE 0
 138 1F28 0 CODE 0
-C:\Users\ysuga\AppData\Local\Temp\xcAs187k.\driver_tmp_1.s
+C:\Users\ysuga\AppData\Local\Temp\xcAs14ps.\driver_tmp_1.s
 4221 8 0 CODE 0
 main.c
 46 8 0 CODE 0
