@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=low_pin_count_usb_development_kit_pic18f14k50.x
+PROJECTNAME=red4hid.x
 
 # Active Configuration
 DEFAULTCONF=LPCUSBDK_18F14K50

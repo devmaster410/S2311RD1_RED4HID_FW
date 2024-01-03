@@ -56,12 +56,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>../boards</Elem>
-    <Elem>../app_config</Elem>
-    <Elem>../../../../../../bsp</Elem>
-    <Elem>../../../hid_mouse/firmware/src</Elem>
     <Elem>../demo_src</Elem>
-    <Elem>../../../../../../framework/usb</Elem>
     <Elem>.</Elem>
     <Elem>../bsp/pic18f14k50</Elem>
     <Elem>../framework/usb/src</Elem>
@@ -244,14 +239,14 @@
         <property key="garbage-collect-functions" value="true"/>
         <property key="identifier-length" value="100"/>
         <property key="local-generation" value="false"/>
-        <property key="operation-mode" value="pro"/>
+        <property key="operation-mode" value="std"/>
         <property key="opt-xc8-compiler-strict_ansi" value="false"/>
         <property key="optimization-assembler" value="true"/>
         <property key="optimization-assembler-files" value="false"/>
         <property key="optimization-debug" value="false"/>
         <property key="optimization-invariant-enable" value="false"/>
         <property key="optimization-invariant-value" value="16"/>
-        <property key="optimization-level" value="9"/>
+        <property key="optimization-level" value="-O2"/>
         <property key="optimization-speed" value="true"/>
         <property key="optimization-stable-enable" value="false"/>
         <property key="preprocess-assembler" value="true"/>

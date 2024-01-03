@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-  <executable name="dist/LPCUSBDK_18F14K50/production\low_pin_count_usb_development_kit_pic18f14k50.x.production.hex">
+  <executable name="dist/LPCUSBDK_18F14K50/production\red4hid.x.production.hex">
     <memory name="program">
       <units>bytes</units>
       <length>16384</length>
-      <used>9558</used>
-      <free>6826</free>
+      <used>7186</used>
+      <free>9198</free>
     </memory>
     <memory name="data">
       <units>bytes</units>
       <length>768</length>
-      <used>201</used>
-      <free>567</free>
+      <used>197</used>
+      <free>571</free>
     </memory>
   </executable>
 </project>

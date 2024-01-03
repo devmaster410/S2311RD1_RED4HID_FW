@@ -82,8 +82,9 @@ please contact mla_licensing@microchip.com
 #define USB_SPEED_OPTION USB_FULL_SPEED
 //#define USB_SPEED_OPTION USB_LOW_SPEED //(this mode is only supported on some microcontrollers)
 
+// Reiwa Devices Original PID from Microchip
 #define MY_VID 0x04D8
-#define MY_PID 0x0055
+#define MY_PID 0xEEC6	
 
 //------------------------------------------------------------------------------------------------------------------
 //Option to enable auto-arming of the status stage of control transfers, if no
