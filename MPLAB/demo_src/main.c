@@ -22,21 +22,13 @@ please contact mla_licensing@microchip.com
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-/* Standard C includes */
-#include <stdint.h>
-
-/* Microchip library includes */
-#include "system.h"
-
-#include "usb.h"
-#include "usb_device_hid.h"
-
-/* Demo project includes */
-#include "app_led_usb_status.h"
-#include "app_device_keyboard.h"
+/* header file created by me */
+#include "prj.h"
 
 int main(void)
 {
+    T_SYSTEM g_tsys;
+
     SYSTEM_Initialize( SYSTEM_STATE_USB_START );
 
     USBDeviceInit();
