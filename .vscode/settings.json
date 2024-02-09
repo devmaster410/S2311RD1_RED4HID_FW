@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "leds.h": "c",
+        "prj.h": "c",
+        "usb.h": "c"
+    }
+}

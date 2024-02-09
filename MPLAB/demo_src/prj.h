@@ -1,3 +1,14 @@
+/**
+ * @file prj.h
+ * @author 
+ * @brief all header file
+ * @version 001
+ * @date 2024-02-09
+ * 
+ * @copyright Copyright (c) 2024
+ * 
+ */
+
 /* 
  * File:   prj.h
  * Author: hsawa
@@ -29,18 +40,30 @@ extern "C" {
 #include "app_led_usb_status.h"
 #include "app_device_keyboard.h"
 
+/*header file created by me*/
+#include "api_timer.h"
+#include "api_buzzer.h"
+
+/*debug header file created by me*/
+#include "debug_led.h"
 
 /*--------------------------------------------
 *Definition
 *---------------------------------------------*/
+/**
+ * @struct T_SYSTEM
+ * @details system info
+ * 
+*/
 typedef struct tagT_SYSTEM
 {
-    uint32_t system_clock;
+    uint32_t system_time;   /**< 1msec. Initial value:0*/
 }T_SYSTEM;
 
 /*--------------------------------------------
 *Variable
 *---------------------------------------------*/
+/**global variable*/
 extern T_SYSTEM g_tsys;
 
 #ifdef	__cplusplus

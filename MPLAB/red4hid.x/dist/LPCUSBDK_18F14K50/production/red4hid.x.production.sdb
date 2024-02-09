@@ -152,19 +152,13 @@ ADR_PENDING_STATE 8
 ADDRESS_STATE 16
 CONFIGURED_STATE 32
 ]
-"32 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
+"35 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
 [e E3026 . `uc
 SYSTEM_STATE_USB_START 0
 SYSTEM_STATE_USB_SUSPEND 1
 SYSTEM_STATE_USB_RESUME 2
 ]
-"65 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
-[e E3026 . `uc
-SYSTEM_STATE_USB_START 0
-SYSTEM_STATE_USB_SUSPEND 1
-SYSTEM_STATE_USB_RESUME 2
-]
-"70
+"45
 [e E2817 . `uc
 LED_NONE 0
 LED_D1 1
@@ -172,7 +166,21 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
+"67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
+[e E3026 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
 "72
+[e E2817 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"74
 [e E2809 . `uc
 BUTTON_NONE 0
 BUTTON_S1 1
@@ -200,6 +208,22 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
+"74 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
+[e E2817 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
+"35 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/debug_led.c
+[e E2817 . `uc
+LED_NONE 0
+LED_D1 1
+LED_D2 2
+LED_D3 3
+LED_D4 4
+]
 "94 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/bsp/pic18f14k50/adc.c
 [v _ADC_Read10bit ADC_Read10bit `(us  1 e 2 0 ]
 "55 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/bsp/pic18f14k50/buttons.c
@@ -213,9 +237,20 @@ LED_D4 4
 "100
 [v _LED_Off LED_Off `(v  1 e 1 0 ]
 [v i2_LED_Off LED_Off `(v  1 e 1 0 ]
+"141
+[v _LED_Toggle LED_Toggle `(v  1 e 1 0 ]
 "220
 [v _LED_Enable LED_Enable `(v  1 e 1 0 ]
 [v i2_LED_Enable LED_Enable `(v  1 e 1 0 ]
+"40 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
+[v _API_Timer1_init API_Timer1_init `(v  1 e 1 0 ]
+"57
+[v _API_Timer1_start API_Timer1_start `(v  1 e 1 0 ]
+"67
+[v _API_Timer1_interrupt API_Timer1_interrupt `(v  1 e 1 0 ]
+"98
+[v _Timer1_reset Timer1_reset `(v  1 s 1 Timer1_reset ]
+[v i2_Timer1_reset Timer1_reset `(v  1 s 1 i2_Timer1_reset ]
 "278 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/app_device_keyboard.c
 [v _APP_KeyboardInit APP_KeyboardInit `(v  1 e 1 0 ]
 "305
@@ -231,7 +266,7 @@ LED_D4 4
 [v _USBHIDCBSetIdleRateHandler USBHIDCBSetIdleRateHandler `(v  1 e 1 0 ]
 "49 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/app_led_usb_status.c
 [v _APP_LEDUpdateUSBStatus APP_LEDUpdateUSBStatus `(v  1 e 1 0 ]
-"28 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
+"32 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
 [v _main main `(i  1 e 2 0 ]
 "67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/usb_events.c
 [v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(a  1 e 1 0 ]
@@ -318,18 +353,18 @@ LED_D4 4
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"65 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
+"67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 [v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
-"89
+"91
 [v _SYS_InterruptHigh SYS_InterruptHigh `IIH(v  1 e 1 0 ]
 [s S2511 . 63 `[63]uc 1 report 63 0 ]
 "47 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/app_device_keyboard.c
 [v _hid_rpt01 hid_rpt01 `CS2511  1 e 63 0 ]
-[s S2632 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `a 1 waitingForRelease 1 5 ]
+[s S2686 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `a 1 waitingForRelease 1 5 ]
 "239
-[v _keyboard keyboard `S2632  1 s 6 keyboard ]
-[s S2637 . 1 `uc 1 leftControl 1 0 :1:0 
+[v _keyboard keyboard `S2686  1 s 6 keyboard ]
+[s S2691 . 1 `uc 1 leftControl 1 0 :1:0 
 `uc 1 leftShift 1 0 :1:1 
 `uc 1 leftAlt 1 0 :1:2 
 `uc 1 leftGUI 1 0 :1:3 
@@ -339,11 +374,11 @@ LED_D4 4
 `uc 1 rightGUI 1 0 :1:7 
 ]
 "244
-[u S2646 . 1 `uc 1 value 1 0 `S2637 1 bits 1 0 ]
-[s S2649 . 8 `S2646 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+[u S2700 . 1 `uc 1 value 1 0 `S2691 1 bits 1 0 ]
+[s S2703 . 8 `S2700 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
 `[6]uc 1 keys 6 2 ]
-[v _inputReport inputReport `S2649  1 s 8 inputReport ]
-[s S2653 . 1 `uc 1 numLock 1 0 :1:0 
+[v _inputReport inputReport `S2703  1 s 8 inputReport ]
+[s S2707 . 1 `uc 1 numLock 1 0 :1:0 
 `uc 1 capsLock 1 0 :1:1 
 `uc 1 scrollLock 1 0 :1:2 
 `uc 1 compose 1 0 :1:3 
@@ -351,9 +386,9 @@ LED_D4 4
 `uc 1 . 1 0 :3:5 
 ]
 "249
-[u S2660 . 1 `uc 1 value 1 0 `S2653 1 leds 1 0 ]
-[v _outputReport outputReport `VES2660  1 s 1 outputReport ]
-[s S2637 . 1 `uc 1 leftControl 1 0 :1:0 
+[u S2714 . 1 `uc 1 value 1 0 `S2707 1 leds 1 0 ]
+[v _outputReport outputReport `VES2714  1 s 1 outputReport ]
+[s S2691 . 1 `uc 1 leftControl 1 0 :1:0 
 `uc 1 leftShift 1 0 :1:1 
 `uc 1 leftAlt 1 0 :1:2 
 `uc 1 leftGUI 1 0 :1:3 
@@ -363,16 +398,19 @@ LED_D4 4
 `uc 1 rightGUI 1 0 :1:7 
 ]
 "265
-[u S2646 . 1 `uc 1 value 1 0 `S2637 1 bits 1 0 ]
-[s S2649 . 8 `S2646 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+[u S2700 . 1 `uc 1 value 1 0 `S2691 1 bits 1 0 ]
+[s S2703 . 8 `S2700 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
 `[6]uc 1 keys 6 2 ]
-[v _oldInputReport oldInputReport `S2649  1 e 8 0 ]
+[v _oldInputReport oldInputReport `S2703  1 e 8 0 ]
 "266
 [v _keyboardIdleRate keyboardIdleRate `i  1 e 2 0 ]
 "267
 [v _LocalSOFCount LocalSOFCount `i  1 e 2 0 ]
 "268
 [v _OldSOFCount OldSOFCount `i  1 s 2 OldSOFCount ]
+[s S2583 tagT_SYSTEM 4 `ul 1 system_time 4 0 ]
+"28 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
+[v _g_tsys g_tsys `S2583  1 e 4 0 ]
 [s S482 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `us 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `us 1 idVendor 2 8 `us 1 idProduct 2 10 `us 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
 "38 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/usb_descriptors.c
 [v _device_dsc device_dsc `CS482  1 e 18 0 ]
@@ -736,6 +774,36 @@ LED_D4 4
 ]
 [u S152 . 1 `S134 1 . 1 0 `S143 1 . 1 0 ]
 [v _TRISCbits TRISCbits `VES152  1 e 1 @3988 ]
+[s S2859 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"3457
+[s S2867 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S2871 . 1 `S2859 1 . 1 0 `S2867 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES2871  1 e 1 @3997 ]
+[s S2635 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"3528
+[s S2643 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S2647 . 1 `S2635 1 . 1 0 `S2643 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES2647  1 e 1 @3998 ]
 [s S829 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 TMR3IE 1 0 :1:1 
 `uc 1 USBIE 1 0 :1:2 
@@ -831,6 +899,37 @@ LED_D4 4
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "5660
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"6222
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S2914 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"6255
+[s S2917 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 T1RUN 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S2925 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S2931 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 T1RD16 1 0 :1:7 
+]
+[u S2936 . 1 `S2914 1 . 1 0 `S2917 1 . 1 0 `S2925 1 . 1 0 `S2931 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES2936  1 e 1 @4045 ]
+"6332
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"6339
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
 [s S1027 . 1 `uc 1 NOT_BOR 1 0 :1:0 
 ]
 "6389
@@ -888,10 +987,10 @@ LED_D4 4
 ]
 [u S1144 . 1 `S1122 1 . 1 0 `S1131 1 . 1 0 `S1140 1 . 1 0 ]
 [v _INTCONbits INTCONbits `VES1144  1 e 1 @4082 ]
-"28 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
+"32 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"59
+"70
 } 0
 "281 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/framework/usb/src/usb_device.c
 [v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
@@ -905,13 +1004,13 @@ LED_D4 4
 {
 "1386
 } 0
-"65 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
+"67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 [v SYSTEM_Initialize@state state `E3026  1 a 1 wreg ]
 [v SYSTEM_Initialize@state state `E3026  1 a 1 wreg ]
 [v SYSTEM_Initialize@state state `E3026  1 a 1 5 ]
-"81
+"83
 } 0
 "220 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/bsp/pic18f14k50/leds.c
 [v _LED_Enable LED_Enable `(v  1 e 1 0 ]
@@ -1023,10 +1122,25 @@ LED_D4 4
 [v LED_Off@led led `E2  1 a 1 2 ]
 "123
 } 0
-"89 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
+"57 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
+[v _API_Timer1_start API_Timer1_start `(v  1 e 1 0 ]
+{
+"60
+} 0
+"40
+[v _API_Timer1_init API_Timer1_init `(v  1 e 1 0 ]
+{
+"50
+} 0
+"98
+[v _Timer1_reset Timer1_reset `(v  1 s 1 Timer1_reset ]
+{
+"102
+} 0
+"91 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
 [v _SYS_InterruptHigh SYS_InterruptHigh `IIH(v  1 e 1 0 ]
 {
-"94
+"102
 } 0
 "481 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/framework/usb/src/usb_device.c
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
@@ -1209,13 +1323,13 @@ LED_D4 4
 [v USER_USB_CALLBACK_EVENT_HANDLER@size size `us  1 p 2 18 ]
 "137
 } 0
-"65 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
+"67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
 [v i2_SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 [v i2SYSTEM_Initialize@state state `E3026  1 a 1 wreg ]
 [v i2SYSTEM_Initialize@state state `E3026  1 a 1 wreg ]
 [v i2SYSTEM_Initialize@state state `E3026  1 a 1 5 ]
-"81
+"83
 } 0
 "220 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/bsp/pic18f14k50/leds.c
 [v i2_LED_Enable LED_Enable `(v  1 e 1 0 ]
@@ -1416,4 +1530,22 @@ LED_D4 4
 "1777
 [v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
 "1829
+} 0
+"67 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
+[v _API_Timer1_interrupt API_Timer1_interrupt `(v  1 e 1 0 ]
+{
+"91
+} 0
+"98
+[v i2_Timer1_reset Timer1_reset `(v  1 s 1 i2_Timer1_reset ]
+{
+"102
+} 0
+"141 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/bsp/pic18f14k50/leds.c
+[v _LED_Toggle LED_Toggle `(v  1 e 1 0 ]
+{
+[v LED_Toggle@led led `E2  1 a 1 wreg ]
+[v LED_Toggle@led led `E2  1 a 1 wreg ]
+[v LED_Toggle@led led `E2  1 a 1 2 ]
+"164
 } 0

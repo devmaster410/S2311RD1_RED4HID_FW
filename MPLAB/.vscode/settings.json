@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "app_led_usb_status.h": "c",
+        "app_device_keyboard.h": "c",
+        "prj.h": "c",
+        "system.h": "c",
+        "stdint.h": "c",
+        "timer.h": "c",
+        "io_mapping.h": "c",
+        "fixed_address_memory.h": "c"
+    }
+}

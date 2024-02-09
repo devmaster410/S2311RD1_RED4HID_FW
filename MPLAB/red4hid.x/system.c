@@ -20,6 +20,8 @@ please contact mla_licensing@microchip.com
 #include "system.h"
 #include "usb.h"
 
+#include "prj.h"
+
 /** CONFIGURATION Bits **********************************************/
 
 #pragma config CPUDIV = NOCLKDIV
@@ -88,7 +90,13 @@ void SYSTEM_Initialize( SYSTEM_STATE state )
 
 void INTERRUPT SYS_InterruptHigh(void)
 {
+    if(PIR1bits.TMR1IF == 1)
+    {
+        API_Timer1_interrupt();
+    }
     #if defined(USB_INTERRUPT)
-        USBDeviceTasks();
+    USBDeviceTasks();
     #endif
+
+
 }

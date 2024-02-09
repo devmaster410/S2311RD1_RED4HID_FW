@@ -25,14 +25,25 @@ please contact mla_licensing@microchip.com
 /* header file created by me */
 #include "prj.h"
 
+T_SYSTEM g_tsys = {
+    0   //< uint32_t system_time;
+};
+
 int main(void)
 {
-    T_SYSTEM g_tsys;
-
+    /**system init*/
     SYSTEM_Initialize( SYSTEM_STATE_USB_START );
-
+    
+    /**USB start*/
     USBDeviceInit();
     USBDeviceAttach();
+
+    /**timer1 start*/
+    API_Timer1_init();
+    API_Timer1_start();
+
+    LED_Enable(LED_D4);
+
 
     while(1)
     {
