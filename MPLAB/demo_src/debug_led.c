@@ -1,7 +1,7 @@
 /**
  * @file debug_led.c
  * @author 
- * @brief debug led control
+ * @brief debug Led control
  * @version 001
  * @date 2024-02-09
  * 

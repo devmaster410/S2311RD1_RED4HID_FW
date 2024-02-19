@@ -44,10 +44,14 @@ int main(void)
 
     LED_Enable(LED_D4);
 
+    API_Buzzer_init();
+
+
 
     while(1)
     {
         SYSTEM_Tasks();
+        API_Buzzer_on();
 
         #if defined(USB_POLLING)
         /* Check bus status and service USB interrupts.  Interrupt or polling

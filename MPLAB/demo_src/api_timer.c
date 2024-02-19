@@ -18,7 +18,7 @@
 /*--------------------------------------------
 *Definition
 *---------------------------------------------*/
-#define DEBUG_1MSEC
+#define DEBUG_10MSEC
 //#define DEBUG_1SEC
 
 /*--------------------------------------------
@@ -28,7 +28,7 @@
 /*--------------------------------------------
 *Function
 *---------------------------------------------*/
-/**static function*/
+/*static function*/
 static void Timer1_reset(void);
 
 
@@ -68,9 +68,12 @@ void API_Timer1_interrupt(void)
 {
     if(PIR1bits.TMR1IF)
     {
+        //!timer1 reset
+        Timer1_reset();
+
         g_tsys.system_time++;
 
-        #ifdef DEBUG_1MSEC
+        #ifdef DEBUG_10MSEC
         LED_Toggle(LED_D4);
         #endif
         
@@ -78,25 +81,22 @@ void API_Timer1_interrupt(void)
         if(g_tsys.system_time >= 1000)
         {
             LED_Toggle(LED_D4);
-            g_tsys.system_time = 0;
         }
         #endif
 
         //!interrupt flag clear
         PIR1bits.TMR1IF = 0;
 
-        //!timer1 reset
-        Timer1_reset();
     }
 }
 
 /**
  * timer1 reset
  * @date 2024-02-09
- * @note static
+ * 
  */
 static void Timer1_reset(void)
 {
-    TMR1L = 0x24;//89
-    TMR1H = 0xfa;//fe
+    TMR1L = 0x69;//89 24
+    TMR1H = 0xc5;//fe fa
 }

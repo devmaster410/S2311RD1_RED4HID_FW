@@ -93,10 +93,12 @@ void INTERRUPT SYS_InterruptHigh(void)
     if(PIR1bits.TMR1IF == 1)
     {
         API_Timer1_interrupt();
+    }else
+    {
+        #if defined(USB_INTERRUPT)
+        USBDeviceTasks();
+        #endif
     }
-    #if defined(USB_INTERRUPT)
-    USBDeviceTasks();
-    #endif
 
 
 }

@@ -36,6 +36,9 @@ extern "C" {
 /*--------------------------------------------
 *Function
 *---------------------------------------------*/
+extern void API_Buzzer_init(void);
+extern void API_Buzzer_on(void);
+extern void API_Buzzer_off(void);
 
 
 #ifdef	__cplusplus

@@ -208,7 +208,7 @@ LED_D2 2
 LED_D3 3
 LED_D4 4
 ]
-"74 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
+"77 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
 [e E2817 . `uc
 LED_NONE 0
 LED_D1 1
@@ -242,6 +242,10 @@ LED_D4 4
 "220
 [v _LED_Enable LED_Enable `(v  1 e 1 0 ]
 [v i2_LED_Enable LED_Enable `(v  1 e 1 0 ]
+"41 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_buzzer.c
+[v _API_Buzzer_init API_Buzzer_init `(v  1 e 1 0 ]
+"64
+[v _API_Buzzer_on API_Buzzer_on `(v  1 e 1 0 ]
 "40 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_timer.c
 [v _API_Timer1_init API_Timer1_init `(v  1 e 1 0 ]
 "57
@@ -361,10 +365,10 @@ LED_D4 4
 [s S2511 . 63 `[63]uc 1 report 63 0 ]
 "47 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/app_device_keyboard.c
 [v _hid_rpt01 hid_rpt01 `CS2511  1 e 63 0 ]
-[s S2686 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `a 1 waitingForRelease 1 5 ]
+[s S2694 . 6 `*.39v 1 lastINTransmission 2 0 `*.39v 1 lastOUTTransmission 2 2 `uc 1 key 1 4 `a 1 waitingForRelease 1 5 ]
 "239
-[v _keyboard keyboard `S2686  1 s 6 keyboard ]
-[s S2691 . 1 `uc 1 leftControl 1 0 :1:0 
+[v _keyboard keyboard `S2694  1 s 6 keyboard ]
+[s S2699 . 1 `uc 1 leftControl 1 0 :1:0 
 `uc 1 leftShift 1 0 :1:1 
 `uc 1 leftAlt 1 0 :1:2 
 `uc 1 leftGUI 1 0 :1:3 
@@ -374,11 +378,11 @@ LED_D4 4
 `uc 1 rightGUI 1 0 :1:7 
 ]
 "244
-[u S2700 . 1 `uc 1 value 1 0 `S2691 1 bits 1 0 ]
-[s S2703 . 8 `S2700 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+[u S2708 . 1 `uc 1 value 1 0 `S2699 1 bits 1 0 ]
+[s S2711 . 8 `S2708 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
 `[6]uc 1 keys 6 2 ]
-[v _inputReport inputReport `S2703  1 s 8 inputReport ]
-[s S2707 . 1 `uc 1 numLock 1 0 :1:0 
+[v _inputReport inputReport `S2711  1 s 8 inputReport ]
+[s S2715 . 1 `uc 1 numLock 1 0 :1:0 
 `uc 1 capsLock 1 0 :1:1 
 `uc 1 scrollLock 1 0 :1:2 
 `uc 1 compose 1 0 :1:3 
@@ -386,9 +390,9 @@ LED_D4 4
 `uc 1 . 1 0 :3:5 
 ]
 "249
-[u S2714 . 1 `uc 1 value 1 0 `S2707 1 leds 1 0 ]
-[v _outputReport outputReport `VES2714  1 s 1 outputReport ]
-[s S2691 . 1 `uc 1 leftControl 1 0 :1:0 
+[u S2722 . 1 `uc 1 value 1 0 `S2715 1 leds 1 0 ]
+[v _outputReport outputReport `VES2722  1 s 1 outputReport ]
+[s S2699 . 1 `uc 1 leftControl 1 0 :1:0 
 `uc 1 leftShift 1 0 :1:1 
 `uc 1 leftAlt 1 0 :1:2 
 `uc 1 leftGUI 1 0 :1:3 
@@ -398,10 +402,10 @@ LED_D4 4
 `uc 1 rightGUI 1 0 :1:7 
 ]
 "265
-[u S2700 . 1 `uc 1 value 1 0 `S2691 1 bits 1 0 ]
-[s S2703 . 8 `S2700 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
+[u S2708 . 1 `uc 1 value 1 0 `S2699 1 bits 1 0 ]
+[s S2711 . 8 `S2708 1 modifiers 1 0 `uc 1 . 1 1 :8:0 
 `[6]uc 1 keys 6 2 ]
-[v _oldInputReport oldInputReport `S2703  1 e 8 0 ]
+[v _oldInputReport oldInputReport `S2711  1 e 8 0 ]
 "266
 [v _keyboardIdleRate keyboardIdleRate `i  1 e 2 0 ]
 "267
@@ -774,7 +778,7 @@ LED_D4 4
 ]
 [u S152 . 1 `S134 1 . 1 0 `S143 1 . 1 0 ]
 [v _TRISCbits TRISCbits `VES152  1 e 1 @3988 ]
-[s S2859 . 1 `uc 1 TMR1IE 1 0 :1:0 
+[s S2958 . 1 `uc 1 TMR1IE 1 0 :1:0 
 `uc 1 TMR2IE 1 0 :1:1 
 `uc 1 CCP1IE 1 0 :1:2 
 `uc 1 SSPIE 1 0 :1:3 
@@ -783,13 +787,13 @@ LED_D4 4
 `uc 1 ADIE 1 0 :1:6 
 ]
 "3457
-[s S2867 . 1 `uc 1 . 1 0 :4:0 
+[s S2966 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IE 1 0 :1:4 
 `uc 1 RC1IE 1 0 :1:5 
 ]
-[u S2871 . 1 `S2859 1 . 1 0 `S2867 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES2871  1 e 1 @3997 ]
-[s S2635 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[u S2970 . 1 `S2958 1 . 1 0 `S2966 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES2970  1 e 1 @3997 ]
+[s S2643 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSPIF 1 0 :1:3 
@@ -798,12 +802,12 @@ LED_D4 4
 `uc 1 ADIF 1 0 :1:6 
 ]
 "3528
-[s S2643 . 1 `uc 1 . 1 0 :4:0 
+[s S2651 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IF 1 0 :1:4 
 `uc 1 RC1IF 1 0 :1:5 
 ]
-[u S2647 . 1 `S2635 1 . 1 0 `S2643 1 . 1 0 ]
-[v _PIR1bits PIR1bits `VES2647  1 e 1 @3998 ]
+[u S2655 . 1 `S2643 1 . 1 0 `S2651 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES2655  1 e 1 @3998 ]
 [s S829 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 TMR3IE 1 0 :1:1 
 `uc 1 USBIE 1 0 :1:2 
@@ -859,6 +863,24 @@ LED_D4 4
 [v _RCREG RCREG `VEuc  1 e 1 @4014 ]
 "4778
 [v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+[s S2864 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"5328
+[s S2868 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[u S2877 . 1 `S2864 1 . 1 0 `S2868 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES2877  1 e 1 @4029 ]
+"5395
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
 "5409
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
 "5480
@@ -899,13 +921,30 @@ LED_D4 4
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "5660
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S2916 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"6055
+[s S2920 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S2928 . 1 `S2916 1 . 1 0 `S2920 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES2928  1 e 1 @4042 ]
+"6105
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
 "6222
 [v _T1CON T1CON `VEuc  1 e 1 @4045 ]
-[s S2914 . 1 `uc 1 . 1 0 :2:0 
+[s S3013 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_T1SYNC 1 0 :1:2 
 ]
 "6255
-[s S2917 . 1 `uc 1 TMR1ON 1 0 :1:0 
+[s S3016 . 1 `uc 1 TMR1ON 1 0 :1:0 
 `uc 1 TMR1CS 1 0 :1:1 
 `uc 1 nT1SYNC 1 0 :1:2 
 `uc 1 T1OSCEN 1 0 :1:3 
@@ -913,19 +952,19 @@ LED_D4 4
 `uc 1 T1RUN 1 0 :1:6 
 `uc 1 RD16 1 0 :1:7 
 ]
-[s S2925 . 1 `uc 1 . 1 0 :2:0 
+[s S3024 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T1SYNC 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
 `uc 1 T1CKPS0 1 0 :1:4 
 `uc 1 T1CKPS1 1 0 :1:5 
 ]
-[s S2931 . 1 `uc 1 . 1 0 :3:0 
+[s S3030 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 SOSCEN 1 0 :1:3 
 `uc 1 . 1 0 :3:4 
 `uc 1 T1RD16 1 0 :1:7 
 ]
-[u S2936 . 1 `S2914 1 . 1 0 `S2917 1 . 1 0 `S2925 1 . 1 0 `S2931 1 . 1 0 ]
-[v _T1CONbits T1CONbits `VES2936  1 e 1 @4045 ]
+[u S3035 . 1 `S3013 1 . 1 0 `S3016 1 . 1 0 `S3024 1 . 1 0 `S3030 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES3035  1 e 1 @4045 ]
 "6332
 [v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
 "6339
@@ -990,7 +1029,7 @@ LED_D4 4
 "32 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/main.c
 [v _main main `(i  1 e 2 0 ]
 {
-"70
+"74
 } 0
 "281 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/framework/usb/src/usb_device.c
 [v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
@@ -1137,10 +1176,20 @@ LED_D4 4
 {
 "102
 } 0
+"64 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/demo_src/api_buzzer.c
+[v _API_Buzzer_on API_Buzzer_on `(v  1 e 1 0 ]
+{
+"67
+} 0
+"41
+[v _API_Buzzer_init API_Buzzer_init `(v  1 e 1 0 ]
+{
+"58
+} 0
 "91 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB\red4hid.x\system.c
 [v _SYS_InterruptHigh SYS_InterruptHigh `IIH(v  1 e 1 0 ]
 {
-"102
+"104
 } 0
 "481 C:\work23\S2311RD1\FW\S2311RD1_RED4HID_FW\MPLAB/framework/usb/src/usb_device.c
 [v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
